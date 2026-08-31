@@ -43,6 +43,9 @@ function App() {
         return val;
       }),
     );
+    setUpdatedName("");
+    setUpdateAmount("");
+    setUpdatedCategory("");
     setEditArrIndex(null);
   };
   return (
